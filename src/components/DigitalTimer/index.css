@@ -1,0 +1,236 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: linear-gradient(
+    to right,
+    #ffffff,
+    #cffcf1,
+    #cffcf1,
+    #defafe
+  );
+}
+.display-timer-container {
+  display: flex;
+  flex-direction: row;
+}
+.timer-display-container {
+  max-width: 1140px;
+}
+.timer-image-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-size: cover;
+  height: 500px;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.timer-container {
+  background-color: #ffffff;
+  text-align: center;
+  height: 150px;
+  width: 150px;
+  border-radius: 100%;
+  font-family: 'Roboto';
+}
+.timer-text {
+  font-size: 32px;
+  color: #00d9f5;
+  font-weight: 600;
+}
+.timer-status {
+  color: #1e293b;
+  font-size: 25px;
+  font-weight: 550;
+}
+.timer-controls-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.controller-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.status-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.control-btn {
+  background-color: inherit;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+.status-icon {
+  width: 30px;
+}
+.status-text {
+  font-size: 24px;
+  padding-left: 10px;
+  text-align: center;
+}
+.reset-icon {
+  width: 35px;
+  height: 35px;
+  margin-left: 50px;
+}
+.timer-limit-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.timer-limit-heading {
+  font-size: 20px;
+}
+.timer-count-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.count-text-container {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.count-text {
+  background-image: linear-gradient(to right, #00f5a0, #00d9f5);
+  font-weight: 500;
+  font-size: 32px;
+  width: 100px;
+  border-radius: 7px;
+  text-align: center;
+}
+.counter-btn {
+  background-color: inherit;
+  font-size: 35px;
+  font-weight: 550;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+@media screen and (max-width: 576px) {
+  .display-timer-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .timer-image-container {
+    height: 350px;
+    max-width: 350px;
+    margin-right: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .timer-container {
+    height: 130px;
+    width: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .timer-text {
+    font-size: 25px;
+  }
+  .timer-status {
+    font-size: 20px;
+  }
+  .status-icon {
+    width: 20px;
+  }
+  .reset-icon {
+    width: 25px;
+    height: 25px;
+  }
+  .status-text {
+    font-size: 18px;
+    margin: 0px;
+  }
+  .timer-limit-heading {
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .timer-image-container {
+    height: 400px;
+    max-width: 450px;
+    margin-right: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .timer-container {
+    height: 130px;
+    width: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .timer-text {
+    font-size: 32px;
+  }
+  .timer-status {
+    font-size: 23px;
+  }
+  .status-icon {
+    width: 25px;
+  }
+  .reset-icon {
+    width: 28px;
+    height: 28px;
+  }
+  .status-text {
+    font-size: 20px;
+    margin: 0px;
+  }
+  .timer-limit-heading {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 922px) {
+  .timer-image-container {
+    height: 450px;
+    max-width: 550px;
+  }
+  .timer-container {
+    height: 150px;
+    width: 150px;
+  }
+  .timer-text {
+    font-size: 35px;
+  }
+  .timer-status {
+    font-size: 25px;
+  }
+  .status-icon {
+    width: 30px;
+  }
+  .reset-icon {
+    width: 35px;
+    height: 35px;
+  }
+  .status-text {
+    font-size: 25px;
+    margin: 0px;
+  }
+  .timer-limit-heading {
+    font-size: 20px;
+  }
+}
